@@ -2,10 +2,9 @@
 
 1. All players should be in the area(300 < X < 910, 300 < Y < 600)
 2. Most of the players in around the penalty spot area[650 < X < 820, 300 < Y < 600] (at least 5 players each team)
-3. Most of the Players from two teams should be next to each other 
-4. 
-5. 
-6. Players cannot overlap (set a tolerance = 30)
+3. Most of the Players from two teams should be defend the opposing players(at least 7 players)
+4. Players cannot overlap (set a tolerance)
+5. Cannot move the White Team players to the Blue Team sample player
 
  """
 
