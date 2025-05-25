@@ -1,0 +1,4 @@
+pretrained_model: CompVis/stable-diffusion-v1-4
+lora_rank: 4
+lora_alpha: 32
+train_text_encoder: False

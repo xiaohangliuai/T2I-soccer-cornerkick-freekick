@@ -28,7 +28,8 @@ for key, value in state_dict.items():
 pipe.unet.load_state_dict(fixed_state_dict, strict=False)
 
 # Generate image
-prompt = "Professional soccer match photograph, corner kick situation in a stadium with crowded stands, players positioned strategically in the penalty area"
+prompt = "Corner kick scene from overlooking lens with blue team forming compact cluster in middle of penalty area. " \
+"White team players positioned with two players wide left, three in central area, two at far post. Blue goalkeeper in yellow positioned at goal line."
 image = pipe(
     prompt=prompt,
     num_inference_steps=30,
@@ -36,4 +37,4 @@ image = pipe(
 ).images[0]
 
 # Save the generated image
-image.save("generated_corner_kick.png")
+image.save("generated_corner_kick1.png")
